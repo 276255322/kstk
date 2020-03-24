@@ -17,6 +17,7 @@ namespace kstk
     {
         public bool IsOper = false;
 
+
         public string tkid = "";
 
         public string tmid = "";
