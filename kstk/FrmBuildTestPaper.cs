@@ -595,6 +595,7 @@ namespace kstk
             return sb.ToString();
         }
 
+
         /// <summary>读取文件编码</summary>
         private void LoadFileEncoding(string fpath)
         {
