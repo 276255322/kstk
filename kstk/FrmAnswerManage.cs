@@ -15,8 +15,8 @@ namespace kstk
 {
     public partial class FrmAnswerManage : Form
     {
-        public bool IsOper = false;
 
+        public bool IsOper = false;
 
         public string tkid = "";
 
