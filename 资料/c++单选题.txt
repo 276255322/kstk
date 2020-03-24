@@ -1,0 +1,255 @@
+下列的各类函数中，不是类的成员函数(    )
+
+58.关于类模板的说法正确的是：（ B ）
+A)类模板的主要作用是生成抽象类
+B)类模板实例化时，编译器将根据给出的模板实参生成一个类
+C)在类模板中的数据成员具有同样类型
+D)类模板中的成员函数没有返回值
+
+59.有如下说明语句 int a[10]={1,2,3,4,5,6,7,8,9,10}；int *p=a；则数值为 9 的表达式是：
+（ B ）。
+A)*p+9 B)*(p+8) C)*p+=9 D)p+7
+
+60.以下关键字不能用来声明类的访问权限的是：（ C ）
+A)public B)private C)static D)protected
+
+61.实现运行时的多态性采用( D )
+A)重载函数 B)构造函数 C)析构函数 D)虚函数
+
+62.下列说明语句中正确的是：（ D ）
+A)int a,&ra=a,&&ref=ra； B)int &refa[10]；
+C)int a,&ra=a,&*refp=&ra； D)int *pi, *&pref=pi；
+
+63.进行文件操作时需要包含头文件（ C ）
+A)iostream.h B)stdio.h C)fstream.h D)stdlib.h
+
+64.使用如 setw()的格式操纵符时需要包含头文件（ C ）
+A)iostream.h B)fstream.h C)iomanip.h D)stdlib.h
+
+65.对 C++语言和 C 语言的兼容性，描述正确的是：（ A ）
+A)C++兼容 C B)C++部分兼容 C C)C++不兼容 C D)C 兼容 C++
+
+66．在 C++中使用流进行输入输出，其中用于屏幕输出的对象是：（ C ）
+A)cerr B)cin C)cout D)cfile
+
+67．对使用关键字 new 所开辟的动态存储空间，释放时必须使用（ C ）
+A)free B)create C)delete D)realse
+
+68．如没有使用 private 关键字定义类的数据成员，则默认为（ A ）
+A)private B)public C)protected D)friend
+
+69．使用值传递方式将实参传给形参，下列说法正确的是：（ A ）
+A)形参是实参的备份 B)实参是形参的备份
+C)形参和实参是同一对象 D)形参和实参无联系
+
+70．在函数调用时，如某一默认参数要指明一个特定值，则有（ A ）
+A)其之前所有参数都必须赋值 B)其之后所有参数都必须赋值
+C)其前、后所有参数都必须赋值 D)其前、后所有参数都不必赋值
+
+71．设存在函数 int max(int，int)返回两参数中较大值，若求 22，59，70 三者中最大值，下
+列表达式不正确的是：（ C ）
+A)int m = max(22，max(59，70))； B)int m = max(max(22，59)，70)；
+C)int m = max(22，59，70)； D)int m = max(59，max(22，70))；
+
+72．下列哪个类型函数不适合声明为内联函数（ A ）
+A)函数体语句较多 B)函数体语句较少 C)函数执行时间较短 D)函数执行时间过长
+
+73．int Func(int，int)；不可与下列哪个函数构成重载（ B ）
+A)int Func(int，int，int)； B)double Func(int，int)；
+C)double Func(double，double)； D)double Func(int，double)；
+
+74．类的私有成员可在何处访问（ D ）
+A)通过子类的对象访问 B)本类及子类的成员函数中
+C)通过该类对象访问 D)本类的成员函数中
+
+75．如果没有为一个类定义任何构造函数的情况下，下列描述正确的是：（ A ）
+A)编译器总是自动创建一个不带参数的构造函数 B)这个类没有构造函数
+C)这个类不需要构造函数 D)该类不能通过编译
+
+76．一个类可包含析构函数的个数是：（ B ）
+A)0 个 B)1 个 C)0 个或 1 个 D)0 个或多个
+
+77．一个类可包含构造函数的个数是：（ D ）
+A)0 个 B)0 个或 1 个 C)0 个或多个 D)1 个或多个
+
+78．this 指针存在的目的是：（ B ）
+A)保证基类公有成员在子类中可以被访问
+B)保证每个对象拥有自己的数据成员，但共享处理这些数据成员的代码
+C)保证基类保护成员在子类中可以被访问
+D)保证基类私有成员在子类中可以被访问
+
+79．下列关于类的权限的描述错误的是：（ A ）
+A)类本身的成员函数只能访问自身的私有成员
+B)类的对象只能访问该类的公有成员
+C)普通函数不能直接访问类的公有成员，必须通过对象访问
+D)一个类可以将另一个类的对象作为成员
+
+80．在编译指令中，宏定义使用哪个指令（ B ）
+A)#include B)#define C)#if D)#else
+
+81．设类 A 将其它类对象作为成员，则建立 A 类对象时，下列描述正确的是：（ B ）
+A)A 类构造函数先执行 B)成员构造函数先执行
+C)两者并行执行 D)不能确定
+
+82．下列描述错误的是：（ A ）
+A)在创建对象前，静态成员不存在 B)静态成员是类的成员
+C)静态成员不能是虚函数 D)静态成员函数不能直接访问非静态成员
+
+83．对于友元描述正确的是：（ B ）
+A)友元是本类的成员函数 B)友元不是本类的成员函数
+C)友元不是函数 D)友元不能访问本类私有成员
+
+84．在哪种派生方式中，派生类可以访问基类中的 protected 成员（ B ）
+A)public 和 private B)public 和 protected
+C)protected 和 private D)仅 protected
+
+85.在每个 C++程序中都必须包含的一个函数是（ B ）
+A)main() B)MAIN() C)name() D)function()
+
+86.设 x 和 y 均为 bool 量，则 x&&y 为真的条件是（ A ）
+A)它们均为真 B)其中一个为真 C)它们均为假 D)其中一个为假
+
+87.下面的哪个保留字不能作为函数的返回类型（ C ）
+A)void B)int C)new D)long
+
+88.假定 a 为一个整型数组名，则元素 a[4]的字节地址为（ C ）
+A)a+4 B)a+8 C)a+16 D)a+32
+
+89.假定有类 AB，有相应的构造函数定义，能正确执行“AB a(4),b(5), c[3] , *p[2]={&a,&b}；”
+语句，请问执行完此语句后共调用该类构造函数的次数为（ C ）
+A)3 B)4 C)5 D)6
+
+90.假定有类 AB，有相应的构造函数定义，能正确执行“AB a(4),b(5), c[3] , *p[2]={&a,&b}；”
+语句，请问执行完此语句后共调用该类析构函数的次数为（ C ）
+A)3 B)4 C)5 D)6
+
+91．对类中声明的变量，下列描述中正确的是：（ B ）
+A)属于全局变量 B)属于该类，某些情况下也可被该类不同实例所共享
+C)只属于该类 D)任何情况下都可被该类所有实例共享
+
+
+
+
+
+
+
+
+
+
+
+21.在 C++中执行以下 4 条语句后输出 rad 值为：( C )
+static int hot=200；
+int &rad=hot；
+hot=hot+100；
+cout<<rad<<endl；
+
+A) 0 B) 100 C) 300 D) 200
+
+
+22.类 clase CC1 的说明如下，错误的语句是：（ A ）
+clase CC1{
+int a=2； //(A)
+CC1()； //(B)
+public:
+CC1(int val)； //(C)
+~CC1()； //(D)
+}；
+
+26.按解释中的要求在下列程序划线处填入的正确语句是：（ C ）
+#include <iostream.h>
+class Base{
+public:
+void fun(){cout<<"Base::fun"<<endl；}
+}；
+class Derived:public Base{
+public：
+void fun()
+{ //在此空格处调用基类的函数 fun()
+cout<<"Derived::fun"<<endl；}
+}；
+A)fun()； B)Base.fun()； C)Base::fun()； D)Base->fun()；
+
+27.在 C++中编译器所生成的文件的扩展名为（ B ）
+A) .cpp B) .obj C) .lib D) .exe
+
+
+
+29.有如下一段程序：
+int f1(float)；
+int f2(char)；
+int f3(float)；
+int f4(float)；
+int（*pf）（float）；
+则以下不合法的是：（ C ）
+A)int（*p）（float）=&f1； B)pf=&f4； C)pf=&f2； D)pf=&f3；
+
+
+
+
+38.有如下程序：执行后的输出结果应该是：（ A ）
+#include<iostream.h>
+class cla{
+static int n；
+public:
+cla(){n++；}
+~cla(){n--；}
+static int get_n(){return n；}
+}；
+int cla::n=0；
+int main()
+{
+cla * p=new cla；
+delete p；
+cout<<"n="<<cla::get_n()<<endl；
+return 0；
+}
+A)n=0 B)n=1 C)n=3 D)n=4
+39.有如下程序：执行后的输出结果应该是：（ A ）
+#include <iostream.h>
+class A{
+public:
+A(){cout<<"A"；}
+}；
+class C:public A{
+public:
+C(){cout<<"C"；}
+}；
+void main(){C cobj；}
+A) AC B) CA C) A D) C
+40.有如下程序：执行后的输出结果应该是：（ D ）
+#include <iostream.h>
+class BASE{
+public:
+~BASE(){cout<<"BASE"；}
+}；
+class DERIVED: public BASE{
+public:
+~DERIVED(){cout<<"DERIVED"；}
+}；
+void main(){DERIVED x；}
+A)BASE B)DERIVED C)BASEDERIVED D)DERIVEDBASE
+
+
+
+57.执行如下程序后的输出结果是：（ B ）
+#include<iostream.h>
+class test{
+static int count；
+public:
+test(){count++；}
+~test(){count--；}
+static int getCount(){return count；}
+}；
+int test::count=0；
+int main()
+{
+test * p=new test；
+test * q=new test；
+delete p；
+cout<<"count="<<test::getCount()<<endl；
+return 0；
+}
+A)count=0 B)count=1 C)count=2 D)count=3
+
+
+
